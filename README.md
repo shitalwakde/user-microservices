@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+# user-microservices
+=======
+>>>>>>> e823a84 (added file)
 #Key Features:
 #Multi-environment setup:
 Dev: 1x t2.micro
@@ -42,3 +48,7 @@ Dev	EC2	ssh ubuntu@<dev_ip>
 UAT	EC2	ssh ubuntu@<uat_ip>
 Prod	ALB	http://<alb_dns>
 This gives you a complete 3-tier environment with proper isolation between Dev/UAT/Prod!
+<<<<<<< HEAD
+=======
+>>>>>>> 58fcf23 (Create README.md)
+>>>>>>> e823a84 (added file)
