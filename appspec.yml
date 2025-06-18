@@ -1,0 +1,12 @@
+version: 0.0
+os: linux
+files:
+  # Copies ALL project files to /home/ubuntu/user-microservice
+  - source: /
+    destination: /home/ubuntu/user-microservice
+    
+hooks:
+  AfterInstall:
+    - location: scripts/restart_server.sh  # Relative to root
+      timeout: 300
+      runas: ubuntu
